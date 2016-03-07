@@ -1,3 +1,4 @@
+:syntax on
 set noswapfile
 " 画面表示の設定
 
