@@ -1,3 +1,7 @@
+autocmd FileType python setl autoindent
+autocmd FileType python setl smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
+autocmd FileType python setl tabstop=8 expandtab shiftwidth=2 softtabstop=2
+
 set syntax=on
 set noswapfile
 " 画面表示の設定
