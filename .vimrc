@@ -24,12 +24,12 @@ set smartindent   " 改行時に入力された行の末尾に合わせて次の
 set clipboard=unnamed,unnamedplus		" OSのクリップボードをレジスタ指定無しで Yank, Put 出来るようにする
 set mouse=a									" マウスの入力を受け付ける
 
-set shellslash								" Windows でもパスの区切り文字を / にする
-set iminsert=1								" インサートモードから抜けると自動的にIMEをオフにする
+set shellslash  " Windows でもパスの区切り文字を / にする
+set iminsert=1	" インサートモードから抜けると自動的にIMEをオフにする
 
 " コマンドラインの設定
 set wildmenu wildmode=list:longest,full		" コマンドラインモードでTABキーによるファイル名補完を有効にする
-set history=10000			" コマンドラインの履歴を10000件保存する
+set history=10000	  " コマンドラインの履歴を10000件保存する
 
 " ビープの設定
 set visualbell t_vb=			"ビープ音すべてを無効にする
